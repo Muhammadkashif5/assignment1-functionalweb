@@ -13,7 +13,7 @@ export default function Home() {
       {/* Right Side: Image */}
       <div className= "w-1/2 pl-5">
         <img
-          src= "/home.png"
+          src= "/home.PNG"
           alt= "Home"
           className= "rounded-lg shadow-lg w-full h-64"
         />

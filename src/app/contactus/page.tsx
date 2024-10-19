@@ -13,7 +13,7 @@ export default function ContactUs() {
         {/* Right side: Image */}
         <div className="w-1/2 pl-5 ">
           <img
-            src= "/contact.png"
+            src= "/contact.PNG"
             alt="About Us"
             className="rounded-lg shadow-lg w-full h-64"
           />

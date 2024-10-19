@@ -13,7 +13,7 @@ export default function About() {
         {/* Right side: Image */}
         <div className="w-1/2 pl-5 ">
           <img
-            src= "/about.png"
+            src= "/about.PNG"
             alt="About Us"
             className="rounded-lg shadow-lg w-full h-64"
           />
