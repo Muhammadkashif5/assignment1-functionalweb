@@ -1,5 +1,7 @@
+"use client";
+
 export default async function Careeroption() {
-  await new Promise(resolve => {
+  await new Promise((resolve) => {
     setTimeout(resolve, 4000);
   });
 
@@ -10,14 +12,17 @@ export default async function Careeroption() {
         <div className="w-1/2">
           <h1 className="text-4xl font-bold mb-6">Career-Option</h1>
           <p className="text-justify text-2xl">
-          A firm's "Career Option" section typically lists job openings in verious department along with application details. It may also highlight employee success stories, values, and desired candidate qualities.
+            A firm's "Career Option" section typically lists job openings in
+            verious department along with application details. It may also
+            highlight employee success stories, values, and desired candidate
+            qualities.
           </p>
         </div>
 
         {/* Right side: Image */}
         <div className="w-1/2 pl-5 ">
           <img
-            src= "/career.PNG"
+            src="/career.PNG"
             alt="About Us"
             className="rounded-lg shadow-lg w-full h-64"
           />
