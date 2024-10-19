@@ -2,8 +2,9 @@
 
 export default async function Careeroption() {
   await new Promise((resolve) => {
-    setTimeout(resolve, 4000);
+    setTimeout(resolve, 2000);
   });
+
 
   return (
     <div className="bg-gray-200 min-h-screen p-10">
