@@ -1,4 +1,3 @@
-import Navbar from "../components/navbar";
 
 export default function News() {
   throw new Error ("Sorry, there is no news yet")
